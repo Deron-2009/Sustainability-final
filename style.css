@@ -15,6 +15,7 @@ body{
    font-optical-sizing: auto;
    font-weight: 400;
    font-style: normal;
+   overflow-y: scroll;
 }
 
 *{
@@ -238,5 +239,35 @@ form>input{
    .video>div{
       width:100%;
       margin: 10px;
+   }
+}
+
+@media screen and (max-width: 300px){
+   p, h3{
+      font-size: 90%;
+   }
+}
+
+@media screen and (min-width: 1500px){
+   *{
+      font-size: large;
+   }
+}
+
+@media screen and (min-width: 1600px){
+   *{
+      font-size: 110%;
+   }
+}
+
+@media screen and (min-width: 2400px){
+   *{
+      font-size: 120%;
+   }
+}
+
+@media screen and (min-width: 3000px){
+   *{
+      font-size: 130%;
    }
 }
